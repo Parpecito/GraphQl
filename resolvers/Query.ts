@@ -3,7 +3,6 @@ import { getPetFromModel } from "../Controllers/getPetFromModel.ts";
 import { PetModel } from "../db/Pet.ts";
 import { GraphQLError } from "graphql";
 
-
 export const Query={
     pet:async(_parent:unknown,args:{id:string}):Promise<Pet>=>{
         const {id}=args;

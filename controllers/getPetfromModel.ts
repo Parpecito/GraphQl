@@ -11,4 +11,4 @@ export const getPetFromModel = async (
       breed,
     };
 
-  }
+}
